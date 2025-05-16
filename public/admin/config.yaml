@@ -12,7 +12,15 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Titolo", name: "title", widget: "string" }
-      - { label: "Data", name: "date", widget: "datetime" }
-      - { label: "Immagine", name: "image", widget: "image" }
-      - { label: "Testo", name: "body", widget: "markdown" }
+      - label: "Titolo"
+        name: "title"
+        widget: "string"
+      - label: "Data"
+        name: "date"
+        widget: "datetime"
+      - label: "Immagine"
+        name: "image"
+        widget: "image"
+      - label: "Testo"
+        name: "body"
+        widget: "markdown"
