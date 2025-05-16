@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: dany921/studiocutrulla
+  name: git-gateway
   branch: main
 
 media_folder: "public/lovable-uploads"
